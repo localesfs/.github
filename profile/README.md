@@ -10,14 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://locales.bitscorp.co">Product</a> ·
-  <a href="https://app.localesfs.com">App</a> ·
+  <a href="https://localesfs.com">localesfs.com</a> ·
+  <a href="https://localesfs.com/docs">Docs, guides &amp; API</a> ·
   <a href="mailto:alex@bitscorp.co">Contact</a>
 </p>
 
 ---
 
-LocalesFS is the localization workspace behind [locales.bitscorp.co](https://locales.bitscorp.co). This GitHub org holds the platform, plugins, and client SDKs.
+LocalesFS lives at [localesfs.com](https://localesfs.com). Documentation, plugin guides, and the REST API are at [localesfs.com/docs](https://localesfs.com/docs). This GitHub org holds the platform, plugins, and client SDKs.
 
 ### Platform
 
@@ -68,4 +68,4 @@ POST /api/projects/:id/import
 GET  /api/projects/:id/bundle
 ```
 
-Built by [Bitscorp](https://locales.bitscorp.co) in Spain.
+Docs: [localesfs.com/docs](https://localesfs.com/docs) · Product: [localesfs.com](https://localesfs.com)
