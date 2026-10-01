@@ -19,6 +19,19 @@
 
 LocalesFS lives at [localesfs.com](https://localesfs.com). Documentation, plugin guides, and the REST API are at [localesfs.com/docs](https://localesfs.com/docs). This GitHub org holds the platform, plugins, and client SDKs.
 
+### Demos
+
+Public samples of the key mapping. JavaScript demos run with `node demo.mjs`. The WordPress demo runs with `php demo.php`.
+
+| Repository | What it shows |
+|---|---|
+| [`localesfs-sdk-demo`](https://github.com/localesfs/localesfs-sdk-demo) | JSON catalog sent to `POST /api/projects/:id/import` |
+| [`localesfs-contentful-demo`](https://github.com/localesfs/localesfs-contentful-demo) | Blog post fields become `cf.entry.{id}.{field}` |
+| [`localesfs-strapi-demo`](https://github.com/localesfs/localesfs-strapi-demo) | Strapi 5 article becomes `strapi.article__article.{documentId}.{field}` |
+| [`localesfs-shopify-demo`](https://github.com/localesfs/localesfs-shopify-demo) | Product strings and the `translationsRegister` body |
+| [`localesfs-wordpress-demo`](https://github.com/localesfs/localesfs-wordpress-demo) | Post and site-title keys (`wp.post.*`, `wp.option.*`) |
+| [`localesfs-react-native-demo`](https://github.com/localesfs/localesfs-react-native-demo) | `t("hello.name", { name: "Ada" })` from a bundle |
+
 ### Platform
 
 | Repository | What it is |
